@@ -87,6 +87,7 @@ font-size: 20px;
     transform: scale(0); /* تصغير العنصر الوهمي ليبدأ من الصفر */
     transform-origin: center; /* نقطة البداية: المنتصف */
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); /* حركة انسيابية */
+    border-radius: 10px;
 }
 
 .nav-links a:hover::after {
@@ -320,13 +321,13 @@ background-color: #f09898;
     background-image: url(../images/photo3.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 1%;
     margin-top: 1;
-
+border: #999;
 }
 
 .home-content {
@@ -340,11 +341,7 @@ background-color: #f09898;
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-weight: normal;
-    text-shadow: 
-    0 0 5px #c98979, /* ظل لامع */
-    0 0 10px #ebbeb3, /* ظل لامع أكبر */
-    0 0 10px #e4a99b, /* ظل لامع أكبر */
-    0 0 10px #dbaca0; /* ظل لامع كبير جدًا */
+    
 }
 
 .home-description {
@@ -356,7 +353,7 @@ background-color: #f09898;
 
 .home-detail {
     font-size: 19px; 
-    color: rgb(34, 33, 33); 
+    color: rgb(90, 88, 88); 
     margin-bottom: 12px;
     text-align: center;
 }
@@ -504,8 +501,8 @@ background-color: #f09898;
   }
   .title-underline {
     width: 93%; /* الطول الإجمالي للخط */
-    height: 1px; /* سمك الخط */
-    background-color: #000; /* لون الخط */
+    height: 1.2px; /* سمك الخط */
+    background-color: #818181; /* لون الخط */
     margin: 10px auto; /* المحاذاة إلى المنتصف */
     position: relative;
     margin-bottom: 70px;
@@ -534,8 +531,8 @@ background-color: #f09898;
     position: absolute;
     left: 0;
     bottom: -75px; /* المسافة أسفل النص */
-    width: 100%; /* عرض الخط */
-    height: 6px; /* سمك الخط */
+    width: 110%; /* عرض الخط */
+    height: 5px; /* سمك الخط */
     background-color: #ff4444; /* لون الخط */
   }
 h4 {
